@@ -1,0 +1,27 @@
+.cardbody{
+    border: solid blue;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    width: 28%;
+    border-radius: 4%;
+}
+.card{
+    display: flex ;
+    flex-wrap: wrap;
+
+}
+.cardbody img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .cardbody{
+        width: 90%;
+        font-size: 30px;
+    }
+    
+}
+
+   
